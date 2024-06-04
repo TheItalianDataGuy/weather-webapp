@@ -44,4 +44,4 @@ if place:
             print(sky)
             st.image(image_paths, width=115, caption=[dict["dt_txt"] for dict in filtered_data])
     except KeyError:
-        st.write("The typed place does exist in the database.")
+        st.write("The typed place does not exist in the database.")
