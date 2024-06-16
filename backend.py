@@ -1,6 +1,7 @@
 import requests
+import os
 
-API_key = "02f77244efe23bd7b44ba823054425d4"
+API_key = os.getenv("api_key")
 
 
 # Define the function to get the weather data
@@ -20,7 +21,6 @@ def get_data(place, days=None):
     filtered_data = filtered_data[:user_input_day]
 
     return filtered_data
-
 
 
 if __name__ == "__main__":
