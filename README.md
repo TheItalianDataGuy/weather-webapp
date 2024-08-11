@@ -58,5 +58,3 @@ This project is licensed under the MIT License.
 ## Acknowledgements
 - Weather data is retrieved from an external API (assumed to be handled in the backend.py file).
 - Images used for sky conditions are assumed to be stored in the images/ directory.
-
-This `README.md` provides a comprehensive overview of your weather forecast application, including instructions for installation, usage, and the project structure. Make sure to adjust any file paths or project-specific details as needed.
